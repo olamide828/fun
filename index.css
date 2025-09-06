@@ -21,7 +21,9 @@
     background-color: white;
     color: black;
     transition: all 0.3s ease;
+    width: 100px;
     font-size: 21px;
+    height: 50px;
 }
 
 
@@ -78,8 +80,6 @@
     background-color: black;
     color: white;
     transition: all 0.3s ease;
-    padding: 0;
-    margin: 0;
 }
 
 #autoGrow-btn {
@@ -94,7 +94,9 @@
     background-color: white;
     color: black;
     transition: all 0.3s ease;
+    width: 100px;
     font-size: 21px;
+    height: 50px;
 }
 
 .navbar-toggler:focus {
