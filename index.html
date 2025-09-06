@@ -110,14 +110,29 @@
             contact the Bride: <a href="mailto:itunuoluwaadedeji2024@gmail.com">itunuoluwaadedeji2024@gmail</a></p>
             or call her : +234 704 485 7257
           </div>
-
+<!-- 
         <div style="text-align: center;" class="guest-book mb-3">
             <form class="message-box">
             <label for="text" style="font-size: 17px;">Drop your sweet words for Itunu & Timilehin</label>
             <input type="text" placeholder="Message Box" required>
             <button>Send</button>
             </form>
-        </div>
+        </div> -->
+
+        <div  class="d-flex justify-content-center gap-3 m-3">
+        <textarea placeholder="Message" id="autoGrow" rows="1">
+        </textarea>
+        <button id="autoGrow-btn">Send</button>
+      </div>
+
+        <script>
+          const textarea = document.getElementById('autoGrow');
+          textarea.addEventListener('input', () => {
+            textarea.style.height = 'auto';
+            textarea.style.height = textarea.scrollHeight + 'px';
+          });
+          textarea.dispatchEvent(newEvent('input'));
+        </script>
 
         <footer style="text-align: center; ">
             <p>Happy Married Life &copy; 2025</p>
